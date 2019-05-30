@@ -108,11 +108,9 @@ body{
     .bio-wrapper {
       text-align: center;
     }
+
       .nav, .aside{
         width: 100%;
         padding: 0; 
       }
     }
-  }
-  
-}
