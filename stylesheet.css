@@ -1,117 +1,26 @@
-iframe {
-  padding-top: 2em;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+body {
+  background: #EEEEF4;
+  color:#999;
+  font-family:Roboto;
 }
 
-.biopic {
-  width: 25em;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
+h1{
+  font-weight:100;
+  font-size:27pt;
+  color:#E43;
 }
 
-.credits {
-  font-size: 0.7em;
-}
+p{font-weight:300;}
 
-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  text-align: center;
-  background-color: #f8f8ff;
-  // background-color: #182C31;
- //background-color: #2A3436;
-  font-family: 'Poppins', sans-serif;
-  //color: #FFD4AA;  
-  // color: #E9CDB1;
-  //color: #FFE4CA;
-  color: #353839;
-}
+.warning-content {
+	position:absolute;
+  top:25%;
+  width:100%;
+  height:300px;
+  text-align:center;
+  margin:0;
   
-  .header{
-    width: 100%;
-    height: 60px;
-   //padding: 1em;
-    padding-top: 0.6em;
-    padding-bottom: 1.2em;
-    font-size: 2.7em;
-    letter-spacing: 0.04em;
-    font-weight: bold;
-    // background: pink;
-  }
   
-  .holygrail-body {
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: center;
-    //align-items: center;
-    
-    }
-
-    .content{
-      flex: 0.7 0 auto;
-      padding-top: 1.5em;
-      // background: lightgreen;
-    }
-    
-    /*
-    
-    .nav{
-      width: 100px;
-      list-style: none;
-      text-align: left;
-      order: -1;
-      background: yellow;
-      margin: 0;
-    }
-    
-    */
-    
-    .aside{
-      
-      flex: 0.3 2 2;
-      padding: 0;
-      padding-top: 6em;
-      font-size: 0.9em;
-      // background: orange;
-    }
-    
-    .bio-wrapper {
-      text-align: justify;
-      text-justify: inter-word;    
-      }
-
-       
-  .footer{
-    width: 100%;
-    height: 60px;
-    //  background: cyan;
-  }
-  
-  @media (max-width: 1200px) {
-    .holygrail-body{
-       flex: 1;
-       flex-direction: column;
-      }
-      
-      iframe {
-         width: 300px; 
-         height: 200px; 
-      }
-      
-      .biopic {
-          width: 20em;
-         margin-left: auto;
-         margin-right: auto;
-         
-      }
-    
-    .bio-wrapper {
-      text-align: center;
-    }
-
-      .nav, .aside{
-        width: 100%;
-        padding: 0; 
-      }
-    }
+}
